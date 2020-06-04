@@ -1,0 +1,34 @@
+#!/bin/bash
+su betty
+#!/bin/bash
+whoami
+#!/bin/bash
+id -Gn
+#!/bin/bash
+chown betty hello
+#!/bin/bash
+touch hello
+#!/bin/bash
+chmod u+x hello
+#!/bin/bash
+chmod ug+x hello 
+#!/bin/bash
+chmod ugo+x hello
+#!/bin/bash
+chmod 007 hello
+#!/bin/bash
+chmod 753 hello
+#!/bin/bash
+chmod --reference=olleh hello
+#!/bin/bash
+chmod -R ugo+x $(find * -type d)
+#!/bin/bash
+mkdir --mode=751 dir_holberton
+#!/bin/bash
+sudo chgrp holberton hello
+#!/bin/bash
+sudo chown - R betty:holberton
+#!/bin/bash
+sudo chown -RP betty:holberton _hello
+#!/bin/bash
+sudo chown --from=guillame betty hello
