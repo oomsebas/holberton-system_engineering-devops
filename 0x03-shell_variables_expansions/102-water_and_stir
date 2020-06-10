@@ -1,0 +1,4 @@
+#!/bin/bash
+echo $(($((5#$(echo $WATER | tr "water" 01234)))+$((5#$(echo $STIR | tr "stir." 01234))))) | xargs printf "%o\n" | tr "0-7" "behlnort"
+
+
