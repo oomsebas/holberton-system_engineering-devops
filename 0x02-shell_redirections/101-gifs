@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -adRS | sort -f | find *.gif -printf %f\\n
