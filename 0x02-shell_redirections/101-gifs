@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -adRS | sort -f | find *.gif -printf %f\\n
+ls -aRS | find *.gif .*gif -type f | sort -f 
