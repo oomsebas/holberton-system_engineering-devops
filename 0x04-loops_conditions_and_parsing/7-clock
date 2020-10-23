@@ -5,7 +5,7 @@
 
 min=0
 hrs=0
-while [ "$hrs" -le 60 ]
+while [ "$hrs" -le 12 ]
 do
 	if [ "$min" -eq 60 -o "$min" -eq 0 ]
 	then
