@@ -5,15 +5,13 @@
 
 min=0
 hrs=0
-while [ "$hrs" -le 12 ]
+while [ "$hrs" -lt 13 ]
 do
-	if [ "$min" -eq 60 -o "$min" -eq 0 ]
-	then
-	    echo Hour: $hrs
-	    hrs=$((hrs+1))
-	    min=1
-	else
-	    echo $min
-	    min=$((min+1))
-	fi
+    echo "Hour: $hrs"
+    min=1
+    while [ "$min" -lt 60 ]; do
+	echo "$min"
+	let min=min+1
+    done
+    let hrs=hrs+1
 done
