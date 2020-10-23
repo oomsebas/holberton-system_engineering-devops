@@ -9,7 +9,7 @@ while [ "$hrs" -le 60 ]
 do
 	if [ "$min" -eq 60 -o "$min" -eq 0 ]
 	then
-	    echo Hour:$hrs
+	    echo Hour: $hrs
 	    hrs=$((hrs+1))
 	    min=1
 	else
