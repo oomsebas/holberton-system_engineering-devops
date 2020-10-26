@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# script to show a message to infinity and beyond
+
+while true
+do
+	echo To infinity and beyond
+	sleep 2
+done
