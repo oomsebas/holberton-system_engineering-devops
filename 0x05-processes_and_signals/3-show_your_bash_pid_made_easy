@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that shows the PID of the bash terminal
+
+pgrep -l bash
