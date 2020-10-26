@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Script to list a snapshot of all current processes
 
-ps -axu
+ps -axjf
