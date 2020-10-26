@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#Script to list a snap shot of all current processes
+#Script to list a snapshot of all current processes
 
-ps aux
+ps axu
