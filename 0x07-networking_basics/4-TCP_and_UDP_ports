@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#TCP IDP concept
+sudo netstat -lp
