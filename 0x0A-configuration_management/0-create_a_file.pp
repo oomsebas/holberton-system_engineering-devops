@@ -1,7 +1,7 @@
 #puppet resource to create a file.
 
 file {'/tmp/holberton':
-  ensure  => abscent,x
+  ensure  => abscent,
   group   => www-data,
   owner   => www-data,
   mode    => '0744',
