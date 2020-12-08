@@ -8,6 +8,6 @@ file_line {'config2':
 }
 file_line {'config3':
   path  => '/etc/ssh/ssh_config',
-  line  => '   KbdInteractiveAuthentication no',
-  match => '^*KbdInteractiveAuthentication*'
+  line  => '   PasswordAuthentication no',
+  match => '^*PasswordAuthentication*'
 }
