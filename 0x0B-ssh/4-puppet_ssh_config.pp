@@ -1,6 +1,6 @@
 #puppet script to modify the ssh_confih archive
 
-include stdlib}
+include stdlib
 file_line {'config2':
   path  => '/etc/ssh/ssh_config',
   line  => '    IdentityFile ~/.ssh/holberton',
@@ -8,6 +8,6 @@ file_line {'config2':
 }
 file_line {'config3':
   path  => '/etc/ssh/ssh_config',
-  line  => '    KbdInteractiveAuthentication no',
-  match => '^*KbdInteractiveAuthentication*'
+  line  => '    PasswordAuthentication no',
+  match => '^*PasswordAuthentication*'
 }
