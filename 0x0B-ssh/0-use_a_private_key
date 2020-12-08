@@ -1,0 +1,4 @@
+#!/bin/bash
+#This script connects to a server using the public private key method
+
+ssh -i ~/.ssh/holberton ubuntu@35.237.144.175
