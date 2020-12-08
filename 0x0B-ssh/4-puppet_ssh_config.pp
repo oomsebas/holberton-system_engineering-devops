@@ -2,17 +2,17 @@
 
 include stdlib
 file_line {'config1':
-  path => '/etc/ssh/ssh_config',
-  line => '    PubkeyAuthentication yes',
-  match => '^*PubkeyAuthentication yes*'
+  path  => '/etc/ssh/ssh_config',
+  line  => '    PubkeyAuthentication yes',
+  match => '^*PubkeyAuthentication*'
 }
 file_line {'config2':
-  path => '/etc/ssh/ssh_config',
-  line => '    IdentityFile ~/.ssh/holberton',
+  path  => '/etc/ssh/ssh_config',
+  line  => '    IdentityFile ~/.ssh/holberton',
   match => '^*IdentityFile ~/.ssh/holberton*'
 }
 file_line {'config3':
-  path => '/etc/ssh/ssh_config',
-  line => '    KbdInteractiveAuthentication no',
-  match => '^*KbdInteractiveAuthentication no*'
+  path  => '/etc/ssh/ssh_config',
+  line  => '    KbdInteractiveAuthentication no',
+  match => '^*KbdInteractiveAuthentication*'
 }
