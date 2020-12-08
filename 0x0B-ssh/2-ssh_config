@@ -54,4 +54,4 @@ Host *
     GSSAPIDelegateCredentials no
     PubkeyAuthentication yes
     IdentityFile ~/.ssh/holberton
-    KbdInteractiveAuthentication no
+    PasswordAuthentication no
