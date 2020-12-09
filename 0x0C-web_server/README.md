@@ -13,4 +13,4 @@ A record type
 CNAME record type
 TXT record type
 MX record type
-<ul>
+<\ul>
