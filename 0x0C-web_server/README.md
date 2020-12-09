@@ -4,8 +4,8 @@
 
 <ul>
 <li>What is the main role of a web server</li>
-<li>What is a child process<li>
-<li>Why web servers usually have a parent process and child processes<li>
+<li>What is a child process</li>
+<li>Why web servers usually have a parent process and child processes</li>
 <li>What are the main HTTP requests</li>
 <li>What DNS stands for</li>
 <li>What is DNS main role</li>
