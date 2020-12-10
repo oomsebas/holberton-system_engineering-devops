@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# debbuging 0
+# debbuging to find the problem on a docker container
 
 sudo service apache2 start
