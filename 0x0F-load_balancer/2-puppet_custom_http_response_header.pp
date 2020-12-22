@@ -4,6 +4,6 @@ include stdlib
 
 file_line {'config2':
   path  => '/etc/nginx/nginx.conf',
-  after => '^*types_hash_max_size*',
+  after => '^http*{*',
   line  => '        add_header X-Server-By $HOSTNAME;',
 }
