@@ -2,4 +2,4 @@
 
 ## Learning objectives
 
-<li>create save scripts to protect the servers from attacks using the root user</li>
+<li>create safe scripts to protect the servers from attacks using the root user</li>
