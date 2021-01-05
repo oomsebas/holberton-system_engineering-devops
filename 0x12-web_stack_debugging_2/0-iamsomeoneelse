@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#execute a command with a predifined user on the $1 argument
 sudo -u "$1" whoami
