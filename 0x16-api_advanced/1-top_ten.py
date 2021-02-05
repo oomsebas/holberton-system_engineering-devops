@@ -13,7 +13,7 @@ def top_ten(subreddit):
                            headers={"User-Agent": "My-User-Agent"},
                            allow_redirects=False)
     if hot_pst.status_code >= 300:
-        return ('None')
+        print ('None')
     else:
         [print(post.get("data").get("title"))
          for post in hot_pst.json().get("data").get("children")]
